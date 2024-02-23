@@ -1,6 +1,4 @@
-// COP 3503
-// Homework #2 - Hexagram 
-// Thaovy Le
+// Hexagram
 
 import java.util.*;
 
@@ -8,16 +6,16 @@ public class hexagram {
 	
 	public static int[] numbers;
 	private static final int SIZE = 12;
-	private static final int[][] LINES = {{0,2,5,7},	// Line #1
-								  		  {7,8,9,10},   // Line #2
-								  		  {0,3,6,10},   // Line #3 
-								  		  {1,2,3,4},    // Line #4
-								  		  {4,6,9,11},   // Line #5
-								  		  {1,5,8,11}};  // Line #6
+	private static final int[][] LINES = {{0,2,5,7},    // Line #1
+					      {7,8,9,10},   // Line #2
+					      {0,3,6,10},   // Line #3 
+					      {1,2,3,4},    // Line #4
+					      {4,6,9,11},   // Line #5
+					      {1,5,8,11}};  // Line #6
 
 	/* 6 Lines for a complete hexagram, value represents position in hexagram
 	 * I thought about it as a triangle and upside-down triangle
-     *       0 
+         *       0 
 	 *      / \
 	 * 1---2---3---4
 	 * \  /     \ / 
